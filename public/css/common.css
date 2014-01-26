@@ -1,0 +1,140 @@
+.navbar .nav>li>a.brand {
+    padding-left: 20px;
+    margin: 8px 0px 8px 150px;
+    line-height: 1.5;
+    font-family: 'AvenirLT-Book',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.content {
+    margin-top:0px;
+    width:100%
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.container h1{
+    font-size: 4.0em;
+    line-height: 1.0em;
+    margin-bottom: 0.70em;
+    font-weight: bold;
+    /*font-family: 'AvenirLT-Heavy',"Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 1.5px;
+    color: #2d3745;
+}
+footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background:#ddd;
+    -webkit-box-shadow:0 8px 6px 6px black;
+    -moz-box-shadow:0 8px 6px 6px black;
+    box-shadow:0 8px 6px 6px black
+}
+
+footer p {
+    padding:5px 0 12px 10px
+}
+
+.json-markup {
+    line-height: 17px;
+    font-size: 13px;
+    font-family: monospace;
+    white-space: pre;
+}
+.json-markup-key {
+    font-weight: bold;
+}
+.json-markup-bool {
+    color: firebrick;
+}
+.json-markup-string {
+    color: green;
+}
+.json-markup-null {
+    color: gray;
+}
+.json-markup-number {
+    color: blue;
+}
+.responseGroup {
+    padding: 2px;
+    background-color: #404040;
+    color: white;
+    padding: 3px 6px 3px 6px;
+    border-radius: 6px;
+}
+.method {
+}
+#url-container {
+    width: 100%;
+}
+/*#url-container input {
+    width: 10%;
+}*/
+#url {
+    margin-left: 8px;
+    margin-right: 50px;
+    width: 80%;
+}
+table {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#url-container .method, #url-container select {
+width: 125px;
+}
+
+.navbar-inverse .navbar-inner {
+  border-color: white;
+  border: transparent;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+  /*background: rgba(0,0,0,.2) no-repeat center center;*/
+  background: white no-repeat center center;
+  height: 58px;
+  min-width: 1000px;
+  margin: 0px;
+}
+#responseEditor{
+    margin-top: 10px;
+}
+#menu-right a{
+    /*margin-top: 1px;*/
+    /*margin-right: 20em;*/
+    /*color: #4d90fe;*/
+    color: black;
+    float: right;
+}
+#menu-right h1{
+    font-size: 1.3em;
+    line-height: 1.0em;
+    margin-bottom: 0.75em;
+    font-weight: bold;
+    font-family: 'AvenirLT-Heavy',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: 1.5px;
+    color: #2d3745;
+}
+#siteLogo{
+    margin-right: 6px;
+}
+.brand-openCurly{
+    color:#BA1414;
+}
+.brand-API{
+    color:#BA1414;
+}
+.example{
+    margin-top: 10px;
+    color: gray;
+}
